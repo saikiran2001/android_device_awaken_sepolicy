@@ -3,6 +3,3 @@ allow platform_app nfc_service:service_manager find;
 
 # Allow FOD HAL service to be found
 hal_client_domain(platform_app, hal_lineage_fod)
-
-# Allow theme_prop to be read by system ui
-get_prop(platform_app, theme_prop)
